@@ -18,17 +18,19 @@ public class beelzebub : MonoBehaviour
     private bool isDashing = false;
     //Variable para limitar el número de dashes en el aire
     private int dashCount = 0;
-    //Creamos un array para poder meter los sprites
-    [SerializeField] Sprite[] spriteArray;
     //Creamos la variable para acceder al componente spriteRenderer
     private SpriteRenderer spriteRenderer;
-
+    //Creamos la variable para acceder al componente animator
+    private Animator animator;
+    //Variable para controlar el tiempo que lleva esperando el personaje
+    private float waitTime = 0;
     // Start is called before the first frame update
     void Start()
     {
-        //Accedemos al rigidbody y al spriteRenderer del gameobject
+        //Accedemos al rigidbody, al spriteRenderer y al animator del gameobject
         rb = GetComponent<Rigidbody>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -60,19 +62,21 @@ public class beelzebub : MonoBehaviour
         float posX = transform.position.x;
         float posY = transform.position.y;
         //Variable para saber el desplazamiento horizontal del personaje
-        float desplX = Input.GetAxis("Horizontal");
+        float desplX = Input.GetAxisRaw("Horizontal");
+        //Variable para saber el desplazamiento vertical del personaje
+        float desplY = Input.GetAxisRaw("Vertical");
         //Variable para saber si se está agachando el personaje
-        bool Crouch = false;
-        //Variabel Vector para que el personaje se mueva.
-        Vector3 moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+        bool crouch = false;
+        //Variable Vector3 para que el personaje se mueva.
+        Vector3 moveDirection = new Vector3(desplX, 0, desplY);
         //Comprobamos que se cumplen las condiciones para que el personaje se intente agachar
-        if (Input.GetAxis("DPadCrouch") < 0 || Input.GetAxis("Vertical") < 0 || Input.GetButton("Crouch"))
+        if (Input.GetButton("Crouch"))
         {
-            Crouch = true;
+            crouch = true;
         }
         else
         {
-            Crouch = false;
+            crouch = false;
         }
         //Asignamos el movimiento al personaje si no está en un dash
         if (!isDashing)
@@ -95,20 +99,21 @@ public class beelzebub : MonoBehaviour
             rb.velocity = new Vector3(rb.velocity.x, jumpPower, 0);
         }
         //Cambiamos el sprite del personaje para que se agache y reducimos su velocidad cuando está agachado
-        if (Crouch && onGround)
+        if (crouch && onGround)
         {
-            spriteRenderer.sprite = spriteArray[1];
             speed = 3.0f;
+            animator.SetBool("Agacharse", crouch);
         }
-        else if (!Crouch)
+        else if (!crouch || !onGround)
         {
-            spriteRenderer.sprite = spriteArray[0];
             speed = 5.0f;
+            animator.SetBool("Agacharse", crouch);
         }
         //Si el jugador pulsa el botón, el personaje hace un dash en la dirección en la que esté mirando
         if (Input.GetButtonDown("Dash") && !spriteRenderer.flipX && dashCount == 0)
         {
             StartCoroutine(Dash(1f));
+            //Si estamos en el aire hacemos que el personaje no tenga más dashes disponibles
             if (!onGround)
             {
                 dashCount = 1;
@@ -127,19 +132,56 @@ public class beelzebub : MonoBehaviour
         {
             dashCount = 0;
         }
+        //Variable para saber si el personaje está moviéndose
+        bool isMoving = false;
+        //Variable para saber si está esperando sin moverse
+        bool isWaiting = false;
+        //Comprobamos si el personaje se está moviendo
+        if (desplX == 1 || desplX == -1 || desplY == 1 || desplY == -1)
+        {
+            //Cambiamos la variable para saber que el personaje se está moviendo
+            isMoving = true;
+            //Cambiamos la booleana para afectar al animator
+            animator.SetBool("Moverse", isMoving);
+            //Reseteamos el tiempo de espera a 0 porque se está moviendo
+            waitTime = 0;
+        }
+        //Comprobamos si el personaje está quieto
+        else if (desplX == 0 && desplY == 0)
+        {
+            //Cambiamos la variable para saber que el personaje está quieto
+            isMoving = false;
+            //Cambiamos la booleana para afectar al animator
+            animator.SetBool("Moverse", isMoving);
+            //Activamos el temporizador de tiempo de espera
+            waitTime += Time.deltaTime;
+        }
+        //Comprobamos el tiempo de espera y cambiamos la booleana acorde con el tiempo
+        if (waitTime >= 10)
+        {
+            isWaiting = true;
+        }
+        else if (waitTime < 10)
+        {
+            isWaiting = false;
+        }
+        //Cambiamos la booleana del animator para evitar que se active la animación de espera
+        animator.SetBool("Esperando", isWaiting);
     }
     //Corrutina para el dash
     IEnumerator Dash(float direction)
     {
         //Cambiamos la booleana para declarar que el personaje está en un dash
         isDashing = true;
-        //Le asignamos el moviemiento al dash gracias al rigidbody
+        //Variable del tiempo que dura el dash
+        float dashTime = 0.2f;
+        //Le asignamos el movimiento al dash gracias al rigidbody
         rb.velocity = new Vector3(rb.velocity.x, 0f, 0f);
         rb.AddForce(new Vector3(dashDistance * direction, 0f, 0f), ForceMode.Impulse);
         //Quitamos la gravedad mientras dure el dash para que vaya en línea recta
         rb.useGravity = false;
         //Asignamos una duración al dash
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(dashTime);
         //Cambiamos la velocidad a 0 para que se pare en seco el dash
         rb.velocity = new Vector3(0f, 0f, 0f);
         //Regresamos las variables de gravedad y dash a su estado principal

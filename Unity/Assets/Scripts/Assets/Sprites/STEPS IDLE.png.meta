@@ -113,7 +113,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -131,10 +131,10 @@ TextureImporter:
       name: STEPS IDLE_0
       rect:
         serializedVersion: 2
-        x: 183
-        y: 2890
-        width: 673
-        height: 886
+        x: 312
+        y: 2863
+        width: 674
+        height: 888
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,7 +142,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e400bfd8ffe41d4db5dcefe3eff9b61
+      spriteID: 8b629de16fac9a14ea1bddc2035e2a78
       internalID: 4658573784913312093
       vertices: []
       indices: 
@@ -152,10 +152,10 @@ TextureImporter:
       name: STEPS IDLE_1
       rect:
         serializedVersion: 2
-        x: 1210
-        y: 2890
-        width: 670
-        height: 826
+        x: 1339
+        y: 2863
+        width: 669
+        height: 827
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +163,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe66684dbb76a24b8c371922e96822b
+      spriteID: 5689ef1b78b6e6f4ab7ed6ef802a5de1
       internalID: -1535451034683053576
       vertices: []
       indices: 
@@ -173,10 +173,10 @@ TextureImporter:
       name: STEPS IDLE_2
       rect:
         serializedVersion: 2
-        x: 2233
-        y: 2890
+        x: 2362
+        y: 2869
         width: 690
-        height: 873
+        height: 872
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cca4247092e895842a3adfe91ca074dc
+      spriteID: a9c897eb3ef45fb469700488c636fe3c
       internalID: 1597487396604981928
       vertices: []
       indices: 
@@ -194,10 +194,10 @@ TextureImporter:
       name: STEPS IDLE_3
       rect:
         serializedVersion: 2
-        x: 183
-        y: 1665
-        width: 636
-        height: 893
+        x: 312
+        y: 1637
+        width: 635
+        height: 894
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a40653b495853449e91b634cc04aca
+      spriteID: ed20d7b5323e55f40b2f92e12642874a
       internalID: 277806357129702096
       vertices: []
       indices: 
@@ -215,10 +215,10 @@ TextureImporter:
       name: STEPS IDLE_4
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 1665
+        x: 1339
+        y: 1632
         width: 664
-        height: 902
+        height: 904
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,7 +226,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 881bf71daa3eac74aa3d20be54b43e77
+      spriteID: 6a649dee1cb0de7439cb57b8fa183b7f
       internalID: 2315811718396049416
       vertices: []
       indices: 
@@ -236,10 +236,10 @@ TextureImporter:
       name: STEPS IDLE_5
       rect:
         serializedVersion: 2
-        x: 1927
-        y: 1669
+        x: 2476
+        y: 1639
         width: 619
-        height: 898
+        height: 899
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,7 +247,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c68d9f204d48c647933d261d5004a27
+      spriteID: 1cc2e11eb1159a547aea9b50ee066b20
       internalID: 4877399269586192873
       vertices: []
       indices: 
@@ -257,10 +257,10 @@ TextureImporter:
       name: STEPS IDLE_6
       rect:
         serializedVersion: 2
-        x: 2802
-        y: 1673
+        x: 3567
+        y: 1643
         width: 711
-        height: 889
+        height: 890
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,7 +268,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a6c48d990a05bf4399ffc5695b76dc7
+      spriteID: be9966876f48f6841b7bb28eca1a4dcc
       internalID: 2163331617864484731
       vertices: []
       indices: 
@@ -278,10 +278,10 @@ TextureImporter:
       name: STEPS IDLE_7
       rect:
         serializedVersion: 2
-        x: 249
-        y: 417
-        width: 686
-        height: 904
+        x: 378
+        y: 388
+        width: 711
+        height: 905
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,7 +289,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da881d81032ffdb4aa3df6e09bba1743
+      spriteID: b9e89a28ec2552b458dd004dfbefb303
       internalID: -2951386361770024045
       vertices: []
       indices: 
@@ -299,10 +299,10 @@ TextureImporter:
       name: STEPS IDLE_8
       rect:
         serializedVersion: 2
-        x: 1124
-        y: 427
-        width: 713
-        height: 904
+        x: 1389
+        y: 402
+        width: 711
+        height: 905
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,7 +310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4d90b85c8eee8a4a995cc6412757c23
+      spriteID: d642135ed6e2d684889fee79e5089b10
       internalID: 6672668710558332801
       vertices: []
       indices: 
@@ -320,10 +320,10 @@ TextureImporter:
       name: STEPS IDLE_9
       rect:
         serializedVersion: 2
-        x: 1993
-        y: 419
+        x: 2476
+        y: 393
         width: 711
-        height: 904
+        height: 903
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,7 +331,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55f137087f48d504e9c9c79af722f54d
+      spriteID: ee5c85ba029a2264fb3a4302d3a2d45f
       internalID: 7189952406117488022
       vertices: []
       indices: 
@@ -340,7 +340,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c636c4723553e8a44b1d437be9bfaa82
+    spriteID: 8120526e845710a4ea3d10752c98221d
     internalID: 0
     vertices: []
     indices: 
