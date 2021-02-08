@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: c1c859b13afd7d146ad4d90901880d2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 582243686863343772
+    second: STEPS IDLE-FLAME SKELETON_0
+  - first:
+      213: -3095767044221753813
+    second: STEPS IDLE-FLAME SKELETON_1
+  - first:
+      213: 9085155054971155051
+    second: STEPS IDLE-FLAME SKELETON_2
+  - first:
+      213: -7442178524915435946
+    second: STEPS IDLE-FLAME SKELETON_3
+  - first:
+      213: -2915368522946347485
+    second: STEPS IDLE-FLAME SKELETON_4
+  - first:
+      213: -5849197122414489256
+    second: STEPS IDLE-FLAME SKELETON_5
+  - first:
+      213: -3219029254200815033
+    second: STEPS IDLE-FLAME SKELETON_6
+  - first:
+      213: 2053960819759402240
+    second: STEPS IDLE-FLAME SKELETON_7
+  - first:
+      213: -4382425016083213058
+    second: STEPS IDLE-FLAME SKELETON_8
+  - first:
+      213: -5106827568453185169
+    second: STEPS IDLE-FLAME SKELETON_9
+  - first:
+      213: -7561213313740413803
+    second: STEPS IDLE-FLAME SKELETON_10
+  - first:
+      213: -3936492286076900012
+    second: STEPS IDLE-FLAME SKELETON_11
+  - first:
+      213: -3045880691090618699
+    second: STEPS IDLE-FLAME SKELETON_12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2202
+        width: 1492
+        height: 1522
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18afe94823064949931cffe1c2986f1
+      internalID: 582243686863343772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_1
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 3622
+        width: 79
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420a75a5773d7ea48aabcfd25ed2647a
+      internalID: -3095767044221753813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_2
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 3640
+        width: 41
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf158aa12ced92642b1512a56a1bc121
+      internalID: 9085155054971155051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_3
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 3625
+        width: 77
+        height: 149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d77201856dff21459a9ed204ae85891
+      internalID: -7442178524915435946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_4
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 2202
+        width: 1493
+        height: 1388
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e21340fdae772489f543cf1da78eba
+      internalID: -2915368522946347485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_5
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 3279
+        width: 15
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a046fec69fe63324b86442f0534f5a29
+      internalID: -5849197122414489256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_6
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 3246
+        width: 13
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1cce8a2b2f8744eaadd5edf62990a7
+      internalID: -3219029254200815033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_7
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 1063
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c46ba342ca372e4e922494bee486be8
+      internalID: 2053960819759402240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_8
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 651
+        width: 332
+        height: 457
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d276912a138ee48b7f3c929e595d5b
+      internalID: -4382425016083213058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_9
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 648
+        width: 293
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c8af4e9c77d0f46af70c2d7fb2c509
+      internalID: -5106827568453185169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_10
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 1046
+        width: 7
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e83f0ca503dd8149ac5f5f6c50825a1
+      internalID: -7561213313740413803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_11
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 648
+        width: 287
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfcf62ed9f363d4ca76cb4c7d4de64c
+      internalID: -3936492286076900012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS IDLE-FLAME SKELETON_12
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 648
+        width: 331
+        height: 389
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9d8c69917cab54e85d73fab69ac1df
+      internalID: -3045880691090618699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a0837c8c3767dd34da2aa0021e3c003e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
