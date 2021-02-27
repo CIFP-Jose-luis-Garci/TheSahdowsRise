@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: c196e3299267b5d4f97676c33e685458
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5324530821617066064
+    second: STEPS STUN SKELETON_0
+  - first:
+      213: -5594111310515417856
+    second: STEPS STUN SKELETON_1
+  - first:
+      213: 7254746873055941833
+    second: STEPS STUN SKELETON_2
+  - first:
+      213: 2209347135163022797
+    second: STEPS STUN SKELETON_3
+  - first:
+      213: -3762452318393462926
+    second: STEPS STUN SKELETON_4
+  - first:
+      213: -7778736097341682934
+    second: STEPS STUN SKELETON_5
+  - first:
+      213: -453241964287035036
+    second: STEPS STUN SKELETON_6
+  - first:
+      213: -6107508445020954409
+    second: STEPS STUN SKELETON_7
+  - first:
+      213: -9187923605645592523
+    second: STEPS STUN SKELETON_8
+  - first:
+      213: -5797224803504078106
+    second: STEPS STUN SKELETON_9
+  - first:
+      213: -6989473000094943863
+    second: STEPS STUN SKELETON_10
+  - first:
+      213: -7329169100586476229
+    second: STEPS STUN SKELETON_11
+  - first:
+      213: 6983874293681967058
+    second: STEPS STUN SKELETON_12
+  - first:
+      213: 8682911664553870928
+    second: STEPS STUN SKELETON_13
+  - first:
+      213: 3641464535299086745
+    second: STEPS STUN SKELETON_14
+  - first:
+      213: 5006370832443392671
+    second: STEPS STUN SKELETON_15
+  - first:
+      213: -8968606965143348469
+    second: STEPS STUN SKELETON_16
+  - first:
+      213: 8951599458676226837
+    second: STEPS STUN SKELETON_17
+  - first:
+      213: -5963347465392779470
+    second: STEPS STUN SKELETON_18
+  - first:
+      213: 850415208164879142
+    second: STEPS STUN SKELETON_19
+  - first:
+      213: 5538899269590301578
+    second: STEPS STUN SKELETON_20
+  - first:
+      213: -5112165860488297943
+    second: STEPS STUN SKELETON_21
+  - first:
+      213: -492855155167057923
+    second: STEPS STUN SKELETON_22
+  - first:
+      213: -8053023436819733408
+    second: STEPS STUN SKELETON_23
+  - first:
+      213: -8961368359486669081
+    second: STEPS STUN SKELETON_24
+  - first:
+      213: 8144396971386143628
+    second: STEPS STUN SKELETON_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: STEPS STUN SKELETON_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2041
+        width: 1492
+        height: 1522
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd3be8838d29ae10800000000000000
+      internalID: 2209347135163022797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS STUN SKELETON_4
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 2042
+        width: 1784
+        height: 1475
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f00ddfc8519cbc0800000000000000
+      internalID: -3762452318393462926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS STUN SKELETON_8
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1997
+        width: 1737
+        height: 1395
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538711e0920fd7080800000000000000
+      internalID: -9187923605645592523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS STUN SKELETON_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1139
+        width: 2288
+        height: 720
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05644d5a726ef7870800000000000000
+      internalID: 8682911664553870928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS STUN SKELETON_19
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 746
+        width: 2288
+        height: 820
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62be14a40284dcb00800000000000000
+      internalID: 850415208164879142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS STUN SKELETON_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 225
+        width: 2288
+        height: 805
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064e678d9d9ed3090800000000000000
+      internalID: -8053023436819733408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b3dc0ca19f6c4374fb840dea6bd9c682
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
