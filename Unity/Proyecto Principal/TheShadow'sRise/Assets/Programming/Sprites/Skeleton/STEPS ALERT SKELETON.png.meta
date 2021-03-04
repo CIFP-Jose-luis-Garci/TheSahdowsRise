@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 9aa157a11ff655146a471ae2756bfc17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2860453666211004495
+    second: STEPS ALERT SKELETON_0
+  - first:
+      213: -6286425216291626887
+    second: STEPS ALERT SKELETON_1
+  - first:
+      213: 3558241926411277169
+    second: STEPS ALERT SKELETON_2
+  - first:
+      213: 3184891842953129781
+    second: STEPS ALERT SKELETON_3
+  - first:
+      213: 7265062061285387078
+    second: STEPS ALERT SKELETON_4
+  - first:
+      213: -1614897902020177003
+    second: STEPS ALERT SKELETON_5
+  - first:
+      213: 540021555818903708
+    second: STEPS ALERT SKELETON_6
+  - first:
+      213: 8060203699826401918
+    second: STEPS ALERT SKELETON_7
+  - first:
+      213: -9037412702582134545
+    second: STEPS ALERT SKELETON_8
+  - first:
+      213: 7013650715512808623
+    second: STEPS ALERT SKELETON_9
+  - first:
+      213: 6598067306924287537
+    second: STEPS ALERT SKELETON_10
+  - first:
+      213: 5056417034761069830
+    second: STEPS ALERT SKELETON_11
+  - first:
+      213: -4397164972732821907
+    second: STEPS ALERT SKELETON_12
+  - first:
+      213: -647344372972736349
+    second: STEPS ALERT SKELETON_13
+  - first:
+      213: 2607326854811906762
+    second: STEPS ALERT SKELETON_14
+  - first:
+      213: -5447585420854947329
+    second: STEPS ALERT SKELETON_15
+  - first:
+      213: -7027319692151774333
+    second: STEPS ALERT SKELETON_16
+  - first:
+      213: 6874826427082210515
+    second: STEPS ALERT SKELETON_17
+  - first:
+      213: -329378252363854830
+    second: STEPS ALERT SKELETON_18
+  - first:
+      213: 6295275277640577700
+    second: STEPS ALERT SKELETON_19
+  - first:
+      213: 4540981830809678669
+    second: STEPS ALERT SKELETON_20
+  - first:
+      213: -5058906639647621709
+    second: STEPS ALERT SKELETON_21
+  - first:
+      213: 8974483840586876172
+    second: STEPS ALERT SKELETON_22
+  - first:
+      213: -2304376206314203328
+    second: STEPS ALERT SKELETON_23
+  - first:
+      213: 450909146684765197
+    second: STEPS ALERT SKELETON_24
+  - first:
+      213: -115573860329227794
+    second: STEPS ALERT SKELETON_25
+  - first:
+      213: -4793142793135597793
+    second: STEPS ALERT SKELETON_26
+  - first:
+      213: 5733972251026395879
+    second: STEPS ALERT SKELETON_27
+  - first:
+      213: -8912329400250976468
+    second: STEPS ALERT SKELETON_28
+  - first:
+      213: -8765051207882090481
+    second: STEPS ALERT SKELETON_29
+  - first:
+      213: -2690978749266768657
+    second: STEPS ALERT SKELETON_30
+  - first:
+      213: -7312462804862558171
+    second: STEPS ALERT SKELETON_31
+  - first:
+      213: 8524860806886705408
+    second: STEPS ALERT SKELETON_32
+  - first:
+      213: -3033941426725718463
+    second: STEPS ALERT SKELETON_33
+  - first:
+      213: -3561157589280126316
+    second: STEPS ALERT SKELETON_34
+  - first:
+      213: 3384278929593443915
+    second: STEPS ALERT SKELETON_35
+  - first:
+      213: -7487443239303809435
+    second: STEPS ALERT SKELETON_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: STEPS ALERT SKELETON_4
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 2041
+        width: 1375
+        height: 1896
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b251ae37fa2d460800000000000000
+      internalID: 7265062061285387078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS ALERT SKELETON_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2041
+        width: 1492
+        height: 1522
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7221796f889bdf60800000000000000
+      internalID: 8060203699826401918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS ALERT SKELETON_9
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 2041
+        width: 1493
+        height: 1387
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa42ec47a2e755160800000000000000
+      internalID: 7013650715512808623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS ALERT SKELETON_31
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 321
+        width: 1381
+        height: 1500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52029e272d9e48a90800000000000000
+      internalID: -7312462804862558171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS ALERT SKELETON_33
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 321
+        width: 1380
+        height: 1500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146fbaec85645e5d0800000000000000
+      internalID: -3033941426725718463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS ALERT SKELETON_34
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 321
+        width: 1384
+        height: 1503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a85c55a0a349ec0800000000000000
+      internalID: -3561157589280126316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS ALERT SKELETON_36
+      rect:
+        serializedVersion: 2
+        x: 4491
+        y: 321
+        width: 1506
+        height: 1503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56675654b02471890800000000000000
+      internalID: -7487443239303809435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 754cc037c76c16046b36249f5c498580
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

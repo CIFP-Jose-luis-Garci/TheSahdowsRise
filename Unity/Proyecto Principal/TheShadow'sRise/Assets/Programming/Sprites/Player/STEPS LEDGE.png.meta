@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: f13c429229860ac4dbf38096725fbaf6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6810100216987315698
+    second: STEPS LEDGE_0
+  - first:
+      213: -8272333943056692775
+    second: STEPS LEDGE_1
+  - first:
+      213: 5720280037954503224
+    second: STEPS LEDGE_2
+  - first:
+      213: 8037521131438056590
+    second: STEPS LEDGE_3
+  - first:
+      213: -1278124257193575727
+    second: STEPS LEDGE_4
+  - first:
+      213: 1206806133507252519
+    second: STEPS LEDGE_5
+  - first:
+      213: -4434931337457874243
+    second: STEPS LEDGE_6
+  - first:
+      213: 7283233370388345172
+    second: STEPS LEDGE_6
+  - first:
+      213: 735646238815651045
+    second: STEPS LEDGE_7
+  - first:
+      213: -4436229619461202818
+    second: STEPS LEDGE_8
+  - first:
+      213: 7400799722197920878
+    second: STEPS LEDGE_9
+  - first:
+      213: -2064162570506220648
+    second: STEPS LEDGE_10
+  - first:
+      213: -3501154324270544931
+    second: STEPS LEDGE_12
+  - first:
+      213: -3877432657177190965
+    second: STEPS LEDGE_11
+  - first:
+      213: -7537394031997518812
+    second: STEPS LEDGE_12
+  - first:
+      213: 7771961950910299518
+    second: STEPS LEDGE_15
+  - first:
+      213: 2446034117190033786
+    second: STEPS LEDGE_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: STEPS LEDGE_5
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 4404
+        width: 899
+        height: 1370
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7216674d8cf6fb010800000000000000
+      internalID: 1206806133507252519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS LEDGE_6
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 4220
+        width: 1000
+        height: 1356
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451b442892e331560800000000000000
+      internalID: 7283233370388345172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS LEDGE_7
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2553
+        width: 896
+        height: 1590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e485f84b5a853a00800000000000000
+      internalID: 735646238815651045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS LEDGE_8
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 2554
+        width: 892
+        height: 1589
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cd2fd4aa85f62c0800000000000000
+      internalID: -4436229619461202818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS LEDGE_9
+      rect:
+        serializedVersion: 2
+        x: 3127
+        y: 2452
+        width: 960
+        height: 1680
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6caa6fd22ce4b660800000000000000
+      internalID: 7400799722197920878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS LEDGE_10
+      rect:
+        serializedVersion: 2
+        x: 4461
+        y: 2466
+        width: 986
+        height: 1677
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bc15a141f9a53e0800000000000000
+      internalID: -2064162570506220648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS LEDGE_11
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 570
+        width: 826
+        height: 1495
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd5474ba87903ac0800000000000000
+      internalID: -3877432657177190965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STEPS LEDGE_12
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 981
+        width: 1168
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c73ae001cc56790800000000000000
+      internalID: -7537394031997518812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 78e124d7568476146949feb7c2f64cca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
