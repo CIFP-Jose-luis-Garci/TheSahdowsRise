@@ -85,6 +85,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] Animator lampAni;
     private bool gotKey = false;
     [SerializeField] GameObject key;
+    [SerializeField] GameObject door;
     private bool ledgePart = false;
     [SerializeField] GameObject[] cameras;
     private Image fadeIn;
@@ -109,6 +110,7 @@ public class PlayerScript : MonoBehaviour
         item2.SetActive(false);
         mustWait.SetActive(false);
         key.SetActive(false);
+        door.SetActive(false);
         fadeIn = GameObject.Find("Fundido").GetComponent<Image>();
     }
     void Update()
@@ -133,6 +135,10 @@ public class PlayerScript : MonoBehaviour
         {
             cameras[1].SetActive(true);
             jumpPower = 8;
+        }
+        if (gotKey == true)
+        {
+            door.SetActive(true);
         }
         if (Input.GetButtonDown("Interact"))
         {
@@ -168,6 +174,8 @@ public class PlayerScript : MonoBehaviour
             {
                 key.SetActive(false);
                 use.SetActive(false);
+                gotKey = false;
+                door.SetActive(false);
                 finished = true;
             }
         }
@@ -254,7 +262,7 @@ public class PlayerScript : MonoBehaviour
             take.SetActive(true);
             keyRange = true;
         }
-        if (other.gameObject.name == "Puerta")
+        if (other.gameObject.name == "Puerta" && gotKey)
         {
             use.SetActive(true);
             doorRange = true;
@@ -354,7 +362,7 @@ public class PlayerScript : MonoBehaviour
             spriteRenderer.flipX = false;
         }
         //Comprobamos que se cumplen las condiciones para saltar y hacemos saltar al personaje
-        if (Input.GetButtonDown("Jump") && onGround && !isDashing && !isJumping && isAlive && boxCollider.enabled == true)
+        if (Input.GetButtonDown("Jump") && onGround && !isDashing && !isJumping && isAlive && boxCollider.enabled == true && PauseMenu.canJump == true)
         {
             StartCoroutine(Salto());
         }

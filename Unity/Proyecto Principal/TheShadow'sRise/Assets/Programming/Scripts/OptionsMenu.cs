@@ -12,6 +12,7 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] Slider volume;
     [SerializeField] Text volumeText;
     private bool fullScreen = true;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,10 @@ public class OptionsMenu : MonoBehaviour
     {
         Resolution();
         Volume();
+        if (Input.GetKeyDown(KeyCode.JoystickButton1))
+        {
+            SceneManager.LoadScene("MenuPrincipal");
+        }
     }
     public void FullScreenChange()
     {
@@ -30,17 +35,18 @@ public class OptionsMenu : MonoBehaviour
         if(fullScreenText.text == "Activa")
         {
             fullScreenText.text = "Desactiva";
-            fullScreen = true;
+            fullScreen = false;
         }
         else
         {
             fullScreenText.text = "Activa";
-            fullScreen = false;
+            fullScreen = true;
         }
     }
     public void Volume()
     {
         volumeText.text = volume.value.ToString();
+        AudioListener.volume = volume.value;
     }
     public void Resolution()
     {

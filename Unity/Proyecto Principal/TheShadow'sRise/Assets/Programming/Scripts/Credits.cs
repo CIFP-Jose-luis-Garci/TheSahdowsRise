@@ -20,6 +20,10 @@ public class Credits : MonoBehaviour
         {
             SceneManager.LoadScene("MenuPrincipal");
         }
+        if (Input.GetKeyDown(KeyCode.JoystickButton1))
+        {
+            SceneManager.LoadScene("MenuPrincipal");
+        }
     }
     public void Back()
     {
